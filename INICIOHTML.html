@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>inicio</title>
+    <style>
+    
+     @import url("https://fonts.googleapis.com/css?family=Questrial");
+
+        *{
+            font-family: "Questrial", sans-serif;
+            border-radius: 2px;
+        }
+::-webkit-scrollbar {
+      width: 10px;
+background: rgba(0,0,0,.5);
+}::-webkit-scrollbar-thumb {
+      background-color: #000;
+} 
+        div.general{
+            text-align: center;
+        }
+        div.titulosprin{
+            display: none;
+        }
+        div.inftit{
+            color:#E74C3C;
+            font-size: 21px;
+            
+        }
+        div.inftitvida{
+            color:#43BE6E;
+            font-size: 21px;
+            
+        }
+        div.inftitpr{
+            color:#43BE6E;
+            font-size: 21px;
+            
+        }
+        div.prinf, div.vidainf{
+            font-size: 25px;
+        }
+        div.infogen{
+            padding: 5px;
+            background: rgba(100,100,100,.5);
+            border-left: 10px solid #E74C3C;
+        }
+        div.infogenpr{
+            padding: 5px;
+            background: rgba(100,100,100,.5);
+        }
+            fieldset{
+                background: rgba(51,51,51,0.9);
+                color: #fff;
+                border: 0;
+                text-align: center;
+            margin-top: 20px;
+
+            }
+        div#diasR{
+            background: white;
+            width: 60px;
+            border-radius: 50px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        fieldset#vida{
+            border-radius: 5px;
+        }
+         legend{
+            color:#43BE6E;
+            font-size: 30px;
+            background: rgba(51,51,51,0.9);
+        }
+        div.infgenvida{
+            width: 95%;
+        }
+        p{
+            border: 2px solid #F39C12;
+            border-radius: 5px;
+            padding: 5px;
+            max-width: 500px;
+            margin-left: auto; 
+            margin-right: auto;
+            font-size: 20px;
+        }
+        fieldset#pr{
+            border-radius: 5px;
+        }
+        @media(min-width:500px){
+        div.titulosprin{
+            display: block;    
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+            div.titulosOcul{
+                display: inline-block;
+                width: 18%;
+                font-size: 25px;
+            color:#43BE6E;
+                
+            }
+            div.inftitvida{
+                display: none;
+            }
+            div.vidainf{
+                display: inline-block;
+                width: 18%;
+                font-size: 20px;
+            }
+            div.titulosOculpr{
+                display: inline-block;
+                width: 30%;
+                font-size: 25px;
+            color:#43BE6E;
+                
+            }
+            div.inftitpr{
+                display: none;
+            }
+            div.prinf{
+                display: inline-block;
+                width: 30%;
+                font-size: 20px;
+            }
+            
+        div.infgenvida{
+            padding: 5px;
+            background: rgba(100,100,100,.5);
+            border-left: 10px solid #E74C3C;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        div.infgenpr{
+            padding: 5px;
+            background: rgba(100,100,100,.5);
+            margin-left: auto;
+            margin-right: auto;
+        }
+        div.infogen{
+            background: none;
+            border-left: none;
+        }
+        div.infogenpr{
+            background: none;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="general">
+        <div class="info">
+            <fieldset>
+                <legend></legend>
+                <div class="infint"><label for=""></label></div>
+                <div class="infint"><label for=""></label></div>
+                <div class="infint"><label for=""></label></div>
+                <div class="infint"><label for=""></label></div>
+            </fieldset>
+        </div>
+        <div class="info">
+            <fieldset id="vida">
+                <legend>Productos-Vida</legend>
+                <p>Esta acabando su tiempo de vida</p>
+                <div class="infogen" >
+                <div class="titulosprin">
+                <div class="titulosOcul"><label for="">Lote</label></div>
+                <div class="titulosOcul"><label for=""># Barras</label></div>
+                <div class="titulosOcul"><label for="">Producto</label></div>
+                <div class="titulosOcul"><label for="">Presentacion</label></div>
+                <div class="titulosOcul"><label for="">Dias Restantes</label></div>
+                </div>
+                <div class="infgenvida">
+                <div class="inftitvida"><label for="">Lote</label></div>
+                <div class="vidainf"><label for="">10</label></div>
+                
+                <div class="inftitvida"><label for="">Codigo de barras</label></div>
+                <div class="vidainf"><label for="">1564646</label></div>
+                
+                <div class="inftitvida"><label for="">Producto</label></div>
+                <div class="vidainf"><label for="">QBD-10</label></div>
+                
+                <div class="inftitvida"><label for="">Presentacion</label></div>
+                <div class="vidainf"><label for="">Galon</label></div>
+                
+                <div class="inftitvida"><label for="">Dias Restantes</label></div>
+                <div class="vidainf">
+                <div  id="diasR"><label for="" style="color: #E74C3C; font-size: 25px;">155</label></div>
+                </div>
+                </div>
+                </div>
+            </fieldset>
+        </div>
+        
+        <div class="info">
+            <fieldset id="pr">
+                <legend>Punto de reorden</legend>
+                <p>Los sigientes productos llegaron a su punto de reorden:</p>
+                
+                <div class="infogenpr" >
+                <div class="titulosprin">
+                <div class="titulosOculpr"><label for="">Producto</label></div>
+                <div class="titulosOculpr"><label for="">Presentacion</label></div>
+                <div class="titulosOculpr"><label for="">Cantidad disponible</label></div>
+                </div>
+                <div class="infgenpr" style="border-left: 10px solid #E74C3C;" >
+                
+                <div class="inftitpr"><label for="">Producto</label></div>
+                <div class="prinf"><label for="">QBD-10</label></div>
+                
+                <div class="inftitpr"><label for="">Presentacion</label></div>
+                <div class="prinf"><label for="">Galon</label></div>
+                
+                <div class="inftitpr"><label for="">Cantidad disponible</label></div>
+                <div class="prinf">
+                <div  id="diasR"><label for="" style="color: #E74C3C; font-size: 25px;">155</label></div>
+                </div>
+                </div>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+</body>
+</html>

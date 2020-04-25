@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.barra{
+            position: fixed;
+            width: 95%;
+            padding: 5px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+            border-radius: 3px;
+            background: rgba(51,51,51,.8);
+        }
+        div.buscador{
+            width: 43%;
+            background: rgba(51,51,51,.8);
+            text-align: center;
+            display: inline-block;
+            padding: 10px;
+            border-radius: 3px;
+        }
+        input[type=text]{
+            font-size: 15px;
+            width: 80%;
+            padding: 6px;
+            border-radius: 2px;
+            border: 1px solid rgba(51,51,51,.4);
+            font-family: "Questrial", sans-serif;
+        }
+        input[type=button]{
+        padding:2px;
+            width: 120px;
+            font-size: 20px;
+            margin-top: 5px;color: white;
+            cursor: pointer;
+            background: #43BE6F;
+            border: 0;
+            border-radius: 2px;
+            margin-top:5px;
+            font-family: "Questrial", sans-serif;
+        }
+    </style>
+    <script>
+        function usuario(){
+            var us = document.getElementById('usuario').value;
+            location.href='#'+us;
+        }
+        function fecha(){
+            var fec = document.getElementById('fecha').value;
+            location.href='#'+fec;
+        }
+    </script>
+</head>
+<body>
+    <div class="general">
+        <div class="barra">
+           
+           
+            <div class="buscador"><input type="text" list="us" placeholder="Usuario" id="usuario" name="" onkeyup="return usuario();">
+            </div>
+            
+            
+            
+            <div class="buscador"><input type="text" list="fec" placeholder="Fecha ej: Diciembre-01-2018" onkeyup="return fecha();"  id="fecha" name="">
+            </div>
+            
+            
+            
+            <datalist id="us">
+                <option value="inicio">
+                <option value="final">
+            </datalist>
+            <datalist id="fec">
+                <option value="inicio">
+                <option value="final">
+            </datalist>
+        </div>
+    </div>
+    <p id="inicio">Inicio</p>
+    <a href="#final" target="_self">final</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <a href="#inicio" >inicio</a>
+    <p id="final">final</p>
+</body>
+</html>
