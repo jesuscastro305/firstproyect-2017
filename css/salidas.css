@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+body{
+    font-family: 'Questrial', sans-serif;
+   
+    
+}
+
+
+input[type=submit]{
+    width: 150px;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    background: #43BE6F;
+    border: 0;
+    padding: 6px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+input[type=text]{
+    width: 100%;
+    min-width: 50%;
+    font-size: 20px;
+    background: rgba(250, 250, 250,.5);
+    border: 0;
+    border-radius:2px; 
+    
+}
+input[type=number]{
+    
+    font-size:   20px;
+    background: rgba(250, 250, 250,.5);
+    border: 0;
+    border-radius:2px; 
+}
+input[type=date]{
+    
+    font-size:   20px;
+    background: rgba(250, 250, 250,.5);
+    border: 0;
+    border-radius:2px; 
+}
+input[type=checkbox]{
+    display: none;
+}
+label.label__cb:before {
+    content: '';
+    border: 2px solid #43BE6F;
+    
+    border-radius: 5px;
+    display: inline-block;
+    height: 15px;
+    text-align: center;
+    vertical-align: center;
+    width: 15px;
+}
+input[type=checkbox]:checked + label.label__cb:before{
+    content: '>';
+    color: #43BE6F;
+    
+    text-align: center;
+    line-height: 58%;
+    font-size: 26px;
+}
+
+select{
+    font-size:   20px;
+    background: rgba(250, 250, 250,.5);
+    border: 0;
+    border-radius:2px; 
+}
+
+
+div.general{
+    font-size: 20px;
+    width: 100%;
+    min-width: 90%;
+    
+    height: 10vh;
+    
+}
+fieldset{
+    background: rgba(51,51,51,0.9);
+    color: #fff;
+    border: 0;
+    min-width: 90%;
+    
+}
+fieldset.general__inf{
+    background: rgba(51,51,51,0.9);
+    color: #fff;
+    border: 0;
+    
+    min-width: 90%;
+    
+    
+}
+
+
+legend{
+    color:#43BE6E;
+    font-size: 30px;
+}
+legend.titulo__cuadro{
+    background: rgba(51,51,51,0.9);
+    
+}
+table{
+    width:100%;
+    min-width: 50%;
+}
+
+table.inf__sal{
+    width: 50%;
+    min-width: 50%;
+   
+}
+
+
+
+td.txt__label{
+    text-align: right;
+    width: 150px;
+}
+input#folioid{
+    width: 25%;
+    font-size: 20px;
+    color: red;
+    text-align: right;
+}
+td{
+   min-width: 50%; 
+}

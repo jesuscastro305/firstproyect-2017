@@ -1,0 +1,9 @@
+Para poder modificar los usuarios desde la fila en la que estan, necesitamos cambiar los textos por inputs, los mismos que estaran en modo 'readonly'.
+Se agregara un 'label' con el atributo 'for' enlazado a un chekbox para usar el label como boton para que accione el checkbox. cuando el usuario precione el button, con ayuda de un script, activaremos la escritura de los input que contendran la informacion del usuario para poder modificarla.
+
+COMO ENVIAREMOS LA INFORMACION DEL USUARIO A LOS INPUT?------------------------------------------------------------------
+En el atributo value de los input, agregaremos la variable $row[x] que nos resulte de la consulta para mostrar el contenido de la tabla de la base de datos.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+con ayuda de un script, crearemos una funcion dentro de la cual tendremos condicionales. por medio del atributo 'onclick' enviaremos el valor del checkbox para realizar las operaciones.
+ si el checkbox esta activo, se habilitara la escritura en los input, si no, se realizara una consulta a la base de datos para subescribir la informacion.

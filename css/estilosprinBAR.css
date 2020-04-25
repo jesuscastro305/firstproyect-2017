@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Questrial', sans-serif;
+}
+header{
+    width: 100%;
+    
+    height: 50px;
+    background: #333;
+    font-size: 10px;
+    color: #fff;
+   
+    position: fixed;
+    left:0;
+    top:0;
+    z-index: 100;
+    
+}
+.contenedor {
+    width: 98%;
+    margin:auto;
+    z-index: 100;
+    
+    }
+h1{
+    float: left;
+    margin-top: 13px;
+}
+header .contenedor{
+    display: table;
+    
+}
+
+/*-------------------------------MENU-------------------------------*/
+
+#btn_menu{
+    display: none;
+}
+header label{
+    float: right;
+    margin: 4px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 40px;
+    cursor: pointer;
+}
+#btn_menu:checked~.menu{
+    transform: translateY(0%);
+}
+.menu{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: rgba(51,51,51,0.8);
+    top: 50px;
+    left: 0;
+    transition: all .4s;
+    transform: translateY(-150%);
+}
+.menu a{
+    display: block;
+    height: 50px;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+   /* border-bottom: 1px solid rgba(255,255,255,0.5);*/
+    
+    
+}
+.menu a:hover{
+    
+    background: rgba(255,255,255,0.5);
+}
+.sincursor{
+    cursor:default;
+}
+ 
+/*----------------------SUBMENU----------------------*/
+
+.submenu{
+    
+    width: 100%;
+    height: auto;
+    color: #fff;
+    text-decoration: none;
+    padding: 0px;
+    
+    font-size: 20px;
+    
+    left: 0px;
+    
+    border-radius: 2px;
+    background: rgba(51,51,51,3);
+    transition: all .4s;
+    
+    
+    
+}
+li{
+        list-style: none;
+     
+    }
+
+li ul{
+    display: none;
+
+    
+    
+}
+li:hover ul{
+   
+    display: block;
+    
+}
+
+
+
+
+
+
+/*---------------VISTA DE ESCRITORIO---------------*/
+@media(min-width:1024px){
+    .menu, ul{
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translateX(0%);
+        float: right;
+        text-decoration: none;
+        display: flex;
+        
+    }
+   
+    header label{
+        display: none;
+    }
+   
+    .submenu{
+        position: absolute;
+        
+    }
+    li ul li{
+        position
+        : sticky;
+    }
+    
+}
+
+/*----------------------FRAME----------------------*/
+
+iframe{
+    position: static;
+    background: red;
+    width: 100%;
+    height: 100vh;
+    padding-top:50px;
+    background: rgba(90,90,90,0.9);
+}
+

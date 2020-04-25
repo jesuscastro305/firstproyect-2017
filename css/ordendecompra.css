@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+*{
+    font-family: 'Questrial', sans-serif;
+   
+    
+}
+input[type=submit]{
+    width: 150px;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    background: #43BE6F;
+    border: 0;
+    padding: 6px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+input[type=text]{
+            width: 90%;
+            padding: 6px;
+            border-radius: 2px;
+            border: 1px solid rgba(51,51,51,.4);
+            margin-top:5px;
+            font-family: "Questrial", sans-serif;
+            font-size:20px;
+    
+}
+textarea{
+            display: inline-block;
+            width: 90%;
+            padding: 6px;
+            border-radius: 2px;
+            border: 1px solid rgba(51,51,51,.4);
+            margin-top:5px;
+            font-family: "Questrial", sans-serif;
+            font-size:20px;
+            max-width: 500px;
+            height: 100px; 
+    
+}
+input[type=number]{
+                transition: .5s;
+            display: inline-block;
+            width: 40%;
+            padding: 6px;
+            border-radius: 2px;
+            border: 1px solid rgba(51,51,51,.4);
+            margin-top:5px;
+            font-size:20px;
+}
+input[type=date]{
+            width: 90%;
+            padding: 6px;
+            border-radius: 2px;
+            border: 1px solid rgba(51,51,51,.4);
+            margin-top:5px;
+            font-family: "Questrial", sans-serif;
+            font-size:20px;
+            max-width: 500px;
+}
+
+select{
+                transition: .5s;
+            width: 95%;
+            padding: 5px;
+            border-radius: 2px;
+            margin-top:5px;
+            font-size:20px;
+}
+
+
+div.general{
+    font-size: 20px;
+    width: 100%;
+    min-width: 90%;
+    
+    height: 10vh;
+    
+}
+fieldset{
+    background: rgba(51,51,51,0.9);
+    color: #fff;
+    border: 0;
+    min-width: 90%;
+    
+}
+fieldset.general__inf{
+    background: rgba(51,51,51,0.9);
+    color: #fff;
+    border: 0;
+    
+    min-width: 90%;
+    
+    
+}
+
+
+legend{
+    color:#43BE6E;
+    font-size: 30px;
+}
+legend.titulo__cuadro{
+    background: rgba(51,51,51,0.9);
+    
+}
+table{
+    width:100%;
+    min-width: 50%;
+}
+
+table.inf__sal{
+    width: 50%;
+    min-width: 50%;
+   
+}
+
+
+
+td.txt__label{
+    text-align: right;
+    width: 150px;
+}
+input#folioid{
+    width: 25%;
+    font-size: 20px;
+    color: red;
+    text-align: right;
+}
+td{
+   min-width: 50%; 
+}
+
+input[type=checkbox]{
+    display: none;
+}
+label.label__cb:before {
+    content: '';
+    border: 2px solid #43BE6F;
+    
+    border-radius: 5px;
+    display: inline-block;
+    height: 15px;
+    text-align: center;
+    vertical-align: center;
+    width: 15px;
+    
+}
+input[type=checkbox]:checked + label.label__cb:before{
+    content: '>';
+    color: #43BE6F;
+    
+    text-align: center;
+    line-height: 58%;
+    font-size: 26px;
+}
+td.prod_sol{
+    text-align: center;
+}

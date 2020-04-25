@@ -1,0 +1,34 @@
+
+table{
+    width: 100%;
+    
+    
+}
+td.cont{
+    color: white;
+    text-align: left;
+    border-collapse: collapse;
+    border-left: black 1px solid;
+    border-bottom:black 1px solid; 
+    padding: 20px;
+}
+
+th.titulos{
+    color: #43BE6E;
+    text-align: left;
+    border-collapse: collapse;
+    border-left: black 1px solid;
+}
+
+input #btn__refrescar{
+    width: 150px;
+    font-size: 15px;
+    
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    background: #43BE6E;
+    border: 0;
+    padding: 6px;
+}

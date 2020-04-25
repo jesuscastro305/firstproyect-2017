@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+body{
+    font-family: 'Questrial', sans-serif;
+   
+    
+}
+
+input[type=submit]{
+    width: 150px;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    background: #43BE6F;
+    border: 0;
+    padding: 6px;
+    border-radius: 4px;
+}
+input[type=text]{
+    width: 100%;
+    min-width: 50%;
+    font-size: 20px;
+    background: rgba(250, 250, 250,.5);
+    border: 0;
+    border-radius:2px; 
+    
+}
+
+input[type=number]{
+    
+    font-size:   20px;
+    background: rgba(250, 250, 250,.5);
+    border: 0;
+    border-radius:2px; }
+textarea{
+    width: 100%;
+    height: 200px;
+    min-width: 50%;
+    font-size: 20px;
+    background: rgba(250, 250, 250,.5);
+    border: 0;
+    border-radius:2px; 
+    
+}
+.input__registro{
+    font-size: 20px;
+}
+
+div.general{
+    font-size: 20px;
+    width: 100%;
+    min-width: 90%;
+    
+    height: 10vh;
+    
+}
+div.generalbus{
+    font-size: 20px;
+    width: 500px;
+    min-width: 90%;
+    
+    height: 10vh;
+    
+}
+fieldset{
+    background: rgba(51,51,51,0.9);
+    color: #fff;
+    border: 0;
+    min-width: 90%;
+    width: 0 auto;
+    
+}
+
+legend{
+    color:#43BE6E;
+    font-size: 30px;
+}
+legend#titulo__cuadro{
+    background: rgba(51,51,51,0.9);
+    
+}
+table{
+    width: 100%;
+    min-width: 50%;
+}
+
+
+td.txt__label{
+    text-align: right;
+    width: 150px;
+}
+input#fechaid{
+    width: 25%;
+}
+td{
+   min-width: 50%; 
+}
+
+select{
+    font-size:   20px;
+    background: rgba(250, 250, 250,.5);
+    border: 0;
+    border-radius:2px; 
+}
+input[type=number]{
+    width: 100%;
+    
+}
+textarea{
+    width: 100%;
+}
